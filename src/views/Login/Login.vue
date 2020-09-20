@@ -61,7 +61,7 @@ export default class Login extends Vue {
 		(this.$refs["ruleForm"] as any).validate((valid:boolean) => {
 			
 			if (valid) {
-				console.log("验证通过")
+				console.log("验证通过验证通过")
 				this.isLogin = true;
 				// 网络请求
 				(this as any).$axios
